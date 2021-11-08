@@ -1,0 +1,103 @@
+header {
+    display: flex;
+    background-image: url("../img/tech.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+header img {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h1 {
+    display: flex;
+    background-color: #c4c4c4;
+    color: rgb(4, 10, 135);
+    font-family: 'Bree Serif', serif;
+    font-size: 35px;
+    height: 60px;
+    width: 1000px;
+    padding: 5px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.sobremi {
+    display: flex;
+    background-color: #c4c4c4;
+    color: rgb(4, 10, 135);
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    font-size: 16px;
+    height: 60px;
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.curriculum-section {
+    display: flex;
+    background-color: #c4c4c4;
+    color: #005677;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    border: dotted 2px black;
+}
+
+.span-datos-personales {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-style: italic;
+}
+
+.span-formAcad-expeLab {
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    background-color: #005677;
+    color: #ffffff;
+    font-size: 18px;
+    height: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab {
+    font-size: 30px;
+}
+
+.madeby p {
+    margin: 0px;
+}
+
+section p#texto {
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    align-items: center;
+}
