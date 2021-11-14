@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-info {
+    background-color: black;
+    color: blanchedalmond;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.head-menu {
+    background-color: #F0A83E;
+    ;
+}
+
+.menu-item {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+#banner {
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.jpg);
+    height: 409px;
+}
+
+.banner-main-title {
+    background-color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.banner-main-subtittle {
+    color: #3C2313;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.banner-main-button {
+    background-color: #F0A83E;
+    color: white;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 334px;
+}
+
+.products-mainmessage {
+    color: #3C2313
+}
+
+.products ul {
+    list-style: none;
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.product-name {
+    color: #3C2313;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.product-price {
+    color: #F0A83E;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.footer-mid {
+    background-color: #3C2313;
+}
+
+.icon-container {
+    background-color: #8A8787;
+    color: white;
+}
+
+.info-title {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.info-detail {
+    color: #8A8787;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.footer-end {
+    background-color: #222222;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+}
