@@ -1,0 +1,331 @@
+#p-header {
+    background: #1CD1B0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 17.58px;
+    padding: 10px 15px;
+    margin: 0px;
+    height: 38px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #00669F;
+    height: 101px;
+    margin: 0px;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    display: flex;
+    background: #E5E5E5;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 560px;
+    margin: 10px;
+}
+
+.div-card1-top {
+    position: relative;
+    width: 300px;
+    height: 190px;
+    background: url(/img/fondo_batman.png);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.div-card2-top {
+    position: relative;
+    width: 300px;
+    height: 190px;
+    background: url(/img/fondo-mujer-maravilla.png);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.div-card3-top {
+    position: relative;
+    width: 300px;
+    height: 190px;
+    background: url(/img/fondo-superman.png);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.div-card4-top {
+    position: relative;
+    width: 300px;
+    height: 190px;
+    background: url(/img/fondo_harly_queen.png);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card i {
+    position: relative;
+    left: 25px;
+    top: 15px;
+    color: #CC2424;
+}
+
+.image-hero {
+    position: relative;
+    width: 120px;
+    height: 110px;
+    top: -70px;
+    border-radius: 50%;
+}
+
+.div-card-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 250px;
+    height: 340px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.div-card-bottom h1 {
+    position: relative;
+    width: 250px;
+    height: 35px;
+    top: -50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    background: none;
+    padding: 0px;
+}
+
+.card-info-text {
+    position: relative;
+    top: -40px;
+}
+
+footer {
+    background-color: #00669F;
+    margin: 0px;
+    height: 51px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF9F9;
+    text-align: center;
+}
+
+#principal-section-login {
+    display: flex;
+    align-items: center;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#login p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+    margin: 30px 5px;
+}
+
+#login input {
+    margin: 10px;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+    box-sizing: border-box;
+    width: 50vw;
+    height: 5vh;
+    padding: 0px 10px;
+}
+
+#button-ingresar[type=submit] {
+    background-color: #1CD1B0;
+    border-radius: 23.011px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+#login div {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+#login div a {
+    align-items: center;
+    color: #00669F;
+    display: flex;
+    font-family: Inter;
+    font-size: 12px;
+    height: 5vh;
+    justify-content: flex-end;
+    width: 25vw;
+}
+
+#login div p {
+    align-items: center;
+    color: #333333;
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    height: 5vh;
+    margin: 0px;
+    width: 25vw;
+    padding-left: 20px;
+}
+
+#usuario:hover,
+#password:hover {
+    border: 3px solid rgb(44, 44, 224);
+}
+
+#usuario:focus,
+#password:focus {
+    color: rgb(44, 89, 240);
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #p-header {
+        background: #D1891C;
+    }
+    section {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 39vw;
+        height: 43vh;
+        margin: 5px;
+    }
+    .div-card1-top {
+        position: relative;
+        width: 39vw;
+        height: 15vh;
+    }
+    .div-card2-top {
+        position: relative;
+        width: 39vw;
+        height: 15vh;
+    }
+    .div-card3-top {
+        position: relative;
+        width: 39vw;
+        height: 15vh;
+    }
+    .div-card4-top {
+        position: relative;
+        width: 39vw;
+        height: 15vh;
+    }
+    .image-hero {
+        position: relative;
+        top: -6vh;
+        width: 12vw;
+        height: 18vh;
+    }
+    .div-card-bottom {
+        display: flex;
+        justify-content: flex-start;
+        width: 32.5vw;
+        height: 29vw;
+    }
+    .div-card-bottom h1 {
+        top: -4vh;
+        width: 32.5vw;
+        height: 7vh;
+        font-size: 26px;
+    }
+    .card-info-text {
+        position: relative;
+        top: -3vh;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:415px) {
+    .card {
+        width: 70vw;
+        height: 24vh;
+        margin: 5px;
+    }
+    h1 {
+        display: flex;
+        align-items: center;
+        height: 8vh;
+        padding: 5px 10px;
+        font-size: 24px;
+    }
+    .div-card1-top {
+        width: 70vw;
+        height: 9vh;
+    }
+    .div-card2-top {
+        width: 70vw;
+        height: 9vh;
+    }
+    .div-card3-top {
+        width: 70vw;
+        height: 9vh;
+    }
+    .div-card4-top {
+        width: 70vw;
+        height: 9vh;
+    }
+    .image-hero {
+        position: relative;
+        top: -4vh;
+    }
+    .div-card-bottom {
+        display: flex;
+        justify-content: flex-start;
+        width: 57vw;
+        height: 30vw;
+    }
+    .div-card-bottom h1 {
+        justify-content: center;
+        top: -4vh;
+        width: 100vw;
+        height: 7vh;
+        font-size: 18px;
+        text-align: center;
+    }
+    .card-info-text {
+        position: relative;
+        top: -5vh;
+        font-size: 9px;
+    }
+}
